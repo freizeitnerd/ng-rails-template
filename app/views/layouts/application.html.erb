@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html data-ng-app="app" data-ng-controller="appCtrl">
+<head>
+  <title>AngularJS on Rails 4 base</title>
+  <%= stylesheet_link_tag    "application", media: "all" %>
+  <%= javascript_include_tag "application" %>
+  <meta charset='utf-8'>
+  <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+  <meta content='width=device-width, initial-scale=1' name='viewport'>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
