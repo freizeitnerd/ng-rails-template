@@ -54,7 +54,7 @@ Vagrant::Application.routes.draw do
   #     resources :products
   #   end
 
-  rootControllerMethode = 'dashboard#index'
+  rootControllerMethode = 'home#index'
   root :to => rootControllerMethode
 
   # needs to be the very last route

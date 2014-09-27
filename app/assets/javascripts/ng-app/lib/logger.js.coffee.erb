@@ -1,0 +1,3 @@
+# to make sure there is no console.log debug statement in production
+@logger = (msg)->
+  console.log msg if 'production' != '<%= Rails.env %>'
