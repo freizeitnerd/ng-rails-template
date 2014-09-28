@@ -13,7 +13,8 @@ log/*.log
 tmp/
 .sass-cache/
 nbproject/
-.idea
+.idea/
+.idea/*.*
 config/deploy*.rb
 database*.yml
 private/*.*
