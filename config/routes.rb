@@ -54,6 +54,8 @@ Vagrant::Application.routes.draw do
   #     resources :products
   #   end
 
+  get 'templates/:filename(.:format)', to: 'templates#show', :constraints => TemplateConstraint
+
   rootControllerMethode = 'home#index'
   root :to => rootControllerMethode
 
