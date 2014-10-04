@@ -3,6 +3,7 @@
 //--------------------------------------------------------
 //= require angular
 //= require angular-ui-router
+//= require angularjs/rails/resource
 //=# require lodash
 //=# require moment
 //=# require moment/de.js
