@@ -57,6 +57,7 @@ gem 'bootstrap-sass',  '>= 3.1.1'
 
 # AngularJS ###########################################
 gem 'angularjs-rails', '>= 1.2.0'
+gem 'angularjs-rails-resource', '~> 1.2.0'
 
 # Handy JS framework ##################################
 # gem 'momentjs-rails'
