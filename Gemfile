@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '>=4.0.2'
+gem 'rails', '~>4.1.0'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -10,7 +10,7 @@ gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.0' # Use SCSS for stylesheets
 
 group :assets do
-  gem 'uglifier', '>= 1.3.0'  # Use Uglifier as compressor for JavaScript assets
+  gem 'uglifier', '~> 1.3.0'  # Use Uglifier as compressor for JavaScript assets
   gem 'coffee-rails', '~> 4.0.0'  # Use CoffeeScript for .js.coffee assets and views
 end
 
@@ -28,7 +28,7 @@ group :development do
 end
 
 group :test do
-  gem 'capybara',           '>= 2.1'
+  gem 'capybara',           '~> 2.1'
   gem 'poltergeist'
   gem 'factory_girl_rails', '~> 4.0'
   gem 'spork'#,              '~> 0.9'#, '~> 1.0rc'
@@ -52,11 +52,11 @@ end
 # gem 'jquery-rails'
 
 # Styling framework ###################################
-gem 'bootstrap-sass',  '>= 3.1.1'
+gem 'bootstrap-sass',  '~> 3.1.1'
 # gem 'font-awesome-sass' # Icons: http://fortawesome.github.io/Font-Awesome/icons/
 
 # AngularJS ###########################################
-gem 'angularjs-rails', '>= 1.2.0'
+gem 'angularjs-rails', '~> 1.3.0'
 gem 'angularjs-rails-resource', '~> 1.2.0'
 
 # Handy JS framework ##################################
