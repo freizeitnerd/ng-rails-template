@@ -48,16 +48,17 @@ end
   #gem 'sdoc', require: false
 #end
 
-# When working with AngularJS try to not use jquery as the JavaScript library
+# If working with AngularJS try to not use jquery as the JavaScript library
 # gem 'jquery-rails'
 
 # Styling framework ###################################
 gem 'bootstrap-sass',  '~> 3.1.1'
-# gem 'font-awesome-sass' # Icons: http://fortawesome.github.io/Font-Awesome/icons/
+gem 'angular-ui-bootstrap-rails'                 # https://github.com/cconstantin/angular-ui-bootstrap-rails
+# gem 'font-awesome-sass'                        # Icons: http://fortawesome.github.io/Font-Awesome/icons/
 
 # AngularJS ###########################################
-gem 'angularjs-rails', '~> 1.3.0'
-gem 'angularjs-rails-resource', '~> 1.2.0'
+gem 'angularjs-rails', '~> 1.3.0'                # https://github.com/hiravgandhi/angularjs-rails
+gem 'angularjs-rails-resource', '~> 1.2.0'       # https://github.com/FineLinePrototyping/angularjs-rails-resource
 
 # Handy JS framework ##################################
 # gem 'momentjs-rails'

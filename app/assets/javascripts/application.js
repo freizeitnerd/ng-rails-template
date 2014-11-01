@@ -4,6 +4,8 @@
 //= require angular
 //= require angular-ui-router
 //= require angularjs/rails/resource
+//=# require angular-ui-bootstrap
+//= require angular-ui-bootstrap-tpls
 //=# require lodash
 //=# require moment
 //=# require moment/de.js
